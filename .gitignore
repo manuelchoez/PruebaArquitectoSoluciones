@@ -1,0 +1,30 @@
+# Ignore all files except documentation
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.vscode/
+.idea/
+# Ignore build and OS files
+/dist/
+/build/
+/out/
+*.exe
+*.dll
+*.obj
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.sublime-workspace
+*.sublime-project
+# Allow docs and diagrams
+!src/docs/
+!src/diagrams/
